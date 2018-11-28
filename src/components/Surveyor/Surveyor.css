@@ -1,0 +1,24 @@
+.ProfilePicture img {
+	max-height: 240px;
+}
+
+.ProfilePicture {
+	display: flex;
+	justify-content: center;
+}
+
+li {
+	list-style-type: none;
+}
+
+td.Value {
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 500px;
+}
+
+/* 4 or more items display next to each other */
+/*li:first-child:nth-last-child(n + 4),
+li:first-child:nth-last-child(n + 4) ~ li {
+  display: inline;
+}*/

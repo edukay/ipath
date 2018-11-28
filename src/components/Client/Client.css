@@ -1,0 +1,8 @@
+.ProfilePicture img {
+	max-height: 240px;
+}
+
+.ProfilePicture {
+	display: flex;
+	justify-content: center;
+}
